@@ -1,0 +1,15 @@
+⚙️ Requirements
+
+To run this project, ensure you have:
+
+Java 17+ installed
+
+Gradle 7+ (or use the included Gradle wrapper ./gradlew)
+
+A system that supports Processing / JavaFX rendering
+
+(Optional) An IDE such as IntelliJ IDEA or VS Code for easier debugging
+
+You can check your Java version using:
+
+java -version
