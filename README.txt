@@ -7,8 +7,8 @@ Players strategically place towers that attack enemies using projectiles, upgrad
 
 This project was entirely designed and developed by me, including architecture, logic, rendering, configuration, assets integration, and gameplay mechanics.
 
-🎯 Features
-🗺️ Map System
+Features
+Map System
 
 Tile-based map loaded from level files (level1.txt–level4.txt)
 
@@ -16,7 +16,7 @@ BFS-based pathfinding using BFSpoint.java
 
 Rendering of terrain, paths, tower zones, and UI elements
 
-👾 Enemies & Waves
+Enemies & Waves
 
 Multiple enemy classes (Enemy.java, Monster.java)
 
@@ -26,7 +26,7 @@ HP, speed, reward, and attribute handling
 
 Wave progression and increasing difficulty (Wave.java)
 
-🏰 Towers
+Towers
 
 Implemented in Tower.java
 
@@ -36,7 +36,7 @@ Automatic targeting of nearest valid enemies
 
 Multiple tower sprites with attack animations
 
-🔥 Projectiles
+Projectiles
 
 Fireball projectile class (Fireball.java)
 
@@ -46,7 +46,7 @@ Hit detection & damage application
 
 Removal and cleanup logic
 
-🧙 Wizard House (Base)
+Wizard House (Base)
 
 Base HP and shield logic
 
@@ -54,7 +54,7 @@ Game-over handling
 
 Loss condition when enemies reach the house
 
-🧠 Architecture & Design (Built entirely by me)
+Architecture & Design (Built entirely by me)
 ✔ Custom Game Loop
 
 Implemented inside App.java:
@@ -91,11 +91,11 @@ config.json manages game parameters
 
 All values dynamically loaded at runtime
 
-👨‍💻 My Role – Sole Developer
+My Role – Sole Developer
 
 I independently built the entire game, including:
 
-🎮 Core Gameplay
+Core Gameplay
 
 Enemy AI & path movement
 
@@ -105,7 +105,7 @@ Projectile physics & collision detection
 
 Wave management and scaling difficulty
 
-🛠️ System Architecture
+System Architecture
 
 Designed all class structures and interactions
 
@@ -115,13 +115,13 @@ Built the tile-based map parser
 
 Designed health bar, UI layout, and stats panel
 
-🧩 Rendering & Assets
+Rendering & Assets
 
 Integrated all sprites (enemies, towers, fireballs, map icons)
 
 Implemented animations and real-time rendering
 
-🧪 Testing & Debugging
+Testing & Debugging
 
 Manual game balancing
 
@@ -131,7 +131,7 @@ Hitbox precision
 
 Level file parsing
 
-🔧 Tech Stack
+Tech Stack
 
 Java 17+
 
@@ -143,11 +143,11 @@ JUnit (basic testing)
 
 JSON parsing
 
-🚀 How to Run
+How to Run
 ./gradlew build
 ./gradlew run
 
-📂 Project Structure
+Project Structure
 src/main/java/WizardTD/
 │ App.java
 │ Map.java
@@ -159,7 +159,7 @@ src/main/java/WizardTD/
 │ Tower.java
 └ Fireball.java
 
-📄 Summary
+Summary
 
 This project showcases my ability to independently design and build a complete interactive system from scratch using Java.
 It demonstrates strong skills in:
